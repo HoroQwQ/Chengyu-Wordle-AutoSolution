@@ -6,38 +6,36 @@
 首先通过运行database_json.py创建搜索数据库idiom_data.json,其具体格式为：
 ```json
 [
-    {
-  "阿鼻地狱": {
+      "阿鼻地狱": {
     "word": "阿鼻地狱",
-    "pinyin": "ā bí dì yù",
-    "pinyin_r": "a bi di yu",
-    "abbreviation": "abdy",
+    "pinyin": "ā1 bí2 dì4 yù4",
+    "pinyin_initials": "abdy",
     "characters": [
       {
         "char": "阿",
         "initial": "",
-        "final": "",
+        "final": "a",
         "tone": 1,
         "position": 1
       },
       {
         "char": "鼻",
         "initial": "b",
-        "final": "",
+        "final": "i",
         "tone": 2,
         "position": 2
       },
       {
         "char": "地",
         "initial": "d",
-        "final": "",
+        "final": "i",
         "tone": 4,
         "position": 3
       },
       {
         "char": "狱",
         "initial": "y",
-        "final": "",
+        "final": "u",
         "tone": 4,
         "position": 4
       }
