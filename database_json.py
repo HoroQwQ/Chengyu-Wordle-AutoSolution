@@ -115,9 +115,6 @@ def process_idiom(raw):
                 # 处理y开头的特殊规则
                 if final.startswith('ü'):
                     final = final.replace('ü', 'u')
-                elif final.startswith('i'):
-                    final = final[1:]
-                    initial = '' if final.startswith(('a', 'e')) else initial
             elif initial == 'w':
                 # 处理w开头的特殊规则
                 if final.startswith('u'):
