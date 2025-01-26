@@ -86,12 +86,6 @@ def split_pinyin(pinyin):
     if initial in ['j', 'q', 'x'] and final.startswith('v'):
         final = final.replace('v', 'u')  # 居→ju→j+ü
 
-    # 处理舌尖元音
-    if initial in ['z', 'c', 's'] and final == 'i':
-        final = 'ih'
-    elif initial in ['zh', 'ch', 'sh', 'r'] and final == 'i':
-        final = 'ih'
-
     return initial, final, tone
 
 
