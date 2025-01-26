@@ -1,7 +1,7 @@
 # Chengyu-Wordle-AutoSolution
 一个基于chinese-xinhua项目为数据库的汉字Wordle（四字成语猜测问题）自动化解题器。通过加载成语数据库，结合成语的拼音特征（声母、韵母、声调）以及用户提供的反馈，逐步缩小候选集范围，最终得出正确答案。
 ## 数据库及其来源
-数据来源于中华新华字典项目，链接：https://github.com/pwxcoo/chinese-xinhua。
+数据来源于中华新华字典项目，链接：https://github.com/pwxcoo/chinese-xinhua
 
 首先通过运行database_json.py创建搜索数据库idiom_data.json,其具体格式为：
 ```json
